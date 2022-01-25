@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background: rgb(154,233,148);
+background: radial-gradient(circle, rgba(154,233,148,1) 7%, rgba(177,217,163,1) 34%, rgba(161,228,153,1) 60%, rgba(177,217,163,1) 100%);
+}
+h1{
+    font-family: 'Comforter', cursive;
+    font-size: 100px;
+    color: rgb(90, 82, 82);
+    position: relative;
+    top: 50px;
+
+}
+#decrease, #increase, #reset {
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    background: #6bc4ff;
+    padding: 13px 23px 14px 21px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  #value{
+      font-size: 100px;
+      margin-bottom: 30px;
+      display: inline-block;
+  }
+  #decrease:hover{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  #increase:hover{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  #reset:hover{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  footer{
+      margin: 50px;
+      font-family: 'Comforter', cursive;
+      font-size: 47px;
+
+  }
